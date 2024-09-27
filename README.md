@@ -20,7 +20,9 @@ import {AsyncLocalStorageContextManager} from "@opentelemetry/context-async-hook
 context.setGlobalContextManager(new AsyncLocalStorageContextManager())
 ```
 
-you can run this workaround like so
+(see [otel-workaround.ts](./src/otel-workaround.ts))
+
+In this repo you can run this workaround like so
 
 - `npm ci`
 - `npm run start:workaround`
